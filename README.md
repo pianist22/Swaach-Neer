@@ -43,7 +43,11 @@ We leverage a comprehensive full-stack solution for building the **Swachh Neer**
 ## 🌐 **Website Preview**
 
 ### Landing Page:
-  <img src="https://github.com/pianist22/Images/blob/main/Landing%20Page.png" alt="Landing Page" width="80%" >
+<img src="https://github.com/pianist22/Images/blob/main/Landing%20Page.png" alt="Landing Page" width="80%" >
+
+### Real-Time Water Quality Dashboard:
+<img src="https://github.com/pianist22/Images/blob/main/bar.png" alt="Landing Page" width="80%" > 
+
 
 ---
 
