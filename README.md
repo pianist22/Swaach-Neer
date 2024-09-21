@@ -43,7 +43,7 @@ We leverage a comprehensive full-stack solution for building the **Swachh Neer**
 ## 🌐 **Website Preview**
 
 ### Landing Page:
-  <img src="https://github.com/pianist22/Images/blob/main/Landing%20Page.png" alt="Landing Page" width="70%" >
+  <img src="https://github.com/pianist22/Images/blob/main/Landing%20Page.png" alt="Landing Page" width="80%" >
 
 ---
 
