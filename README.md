@@ -44,9 +44,7 @@ We leverage a comprehensive full-stack solution for building the **Swachh Neer**
 
 ### Screenshots
 <p align="center">
-  <img src="https://github.com/pianist22/Images/blob/main/Landing%20Page.png" alt="Landing Page" width="45%" />
-  <img src="path-to-screenshot2.png" alt="Dashboard" width="45%" />
-  <img src="path-to-screenshot3.png" alt="Infographics" width="45%" />
+  <img src="https://github.com/pianist22/Images/blob/main/Landing%20Page.png" alt="Landing Page" width="400" />
 </p>
 
 ---
