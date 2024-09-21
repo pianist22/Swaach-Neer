@@ -5,7 +5,8 @@
 ---
 
 ## 🚩 **Problem Statement**
-Water bodies in Delhi, including the Yamuna and local lakes, are plagued by severe pollution due to waste dumping and neglect. This contamination not only degrades the environment but poses health risks to nearby residents and disrupts the ecosystem.
+Online real-time survey and monitoring of water bodies in Delhi:	
+Technological solution for real-time survey and monitoring of water bodies in Delhi is one of the critical areas for rejuvenation of these water bodies.
 
 ---
 
@@ -48,6 +49,12 @@ We leverage a comprehensive full-stack solution for building the **Swachh Neer**
 ### Real-Time Water Quality Dashboard:
 <img src="https://github.com/pianist22/Images/blob/main/bar.png" alt="Landing Page" width="80%" > 
 
+### Interactive Geospatial Mapping of Water Bodies:
+<img src="https://github.com/pianist22/Images/blob/main/Mapping.png" alt="Landing Page" width="80%" > 
+
+### Ai-Powered Predictive Alerts:
+<img src="https://github.com/pianist22/Images/blob/main/Ai%20-%20Predictions.png" alt="Landing Page" width="80%" > 
+
 
 ---
 
@@ -59,9 +66,3 @@ We leverage a comprehensive full-stack solution for building the **Swachh Neer**
 - **Interactive Dashboards:** User-friendly interfaces for navigating and exploring data.
 
 ---
-
-## 🚀 **How to Contribute**
-1. Clone the repository.
-2. Install the necessary dependencies:
-   ```bash
-   npm install
