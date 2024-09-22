@@ -28,14 +28,14 @@ We leverage a comprehensive full-stack solution for building the **Swachh Neer**
 - **Node.js**: For asynchronous backend handling and JavaScript runtime.
 
 <p align="center">
-  <img src="https://img.icons8.com/color/48/000000/express-js.png" alt="Express" />
+  <img src="https://img.icons8.com/color/48/000000/express-js.png" alt="Express" width = '80'/>
   <img src="https://img.icons8.com/color/48/000000/mongodb.png" alt="MongoDB" />
   <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" />
   <img src="https://img.icons8.com/color/48/000000/flask.png" alt="Flask" />
   <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js" />
   <img src="https://img.icons8.com/color/48/000000/react-native.png" alt="React" />
   <img src="https://img.icons8.com/color/48/000000/nextjs.png" alt="Next.js" />
-  <img src="https://img.icons8.com/color/48/000000/scikit-learn.png" alt="Scikit-learn" />
+  <img src="https://github.com/pianist22/Images/blob/main/Scikit-learn.png" alt="Scikit-learn" />
 </p>
 
 ---
