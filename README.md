@@ -46,14 +46,17 @@ We leverage a comprehensive full-stack solution for building the **Swachh Neer**
 <p>
   <img src="https://github.com/pianist22/Images/blob/main/Landing%20Page.png" alt="Landing Page" width="80%" />
 </p>
+
 ### Real-Time Water Quality Dashboard:
 <p>
   <img src="https://github.com/pianist22/Images/blob/main/bar.png" alt="Landing Page" width="80%" />
 </p>
+
 ### Geospatial Navigation of Water Bodies:
 <p>
   <img src="https://github.com/pianist22/Images/blob/main/Mapping.png" alt="Landing Page" width="80%" />
 </p>
+
 ### AI-Driven Prediction:
 <p>
   <img src="https://github.com/pianist22/Images/blob/main/Ai%20-%20Predictions.png" alt="Landing Page" width="80%" />
