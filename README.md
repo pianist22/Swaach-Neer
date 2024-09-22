@@ -35,7 +35,7 @@ We leverage a comprehensive full-stack solution for building the **Swachh Neer**
   <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js" />
   <img src="https://img.icons8.com/color/48/000000/react-native.png" alt="React" />
   <img src="https://img.icons8.com/color/48/000000/nextjs.png" alt="Next.js" />
-  <img src="https://github.com/pianist22/Images/blob/main/Scikit-learn.png" alt="Scikit-learn" />
+  <img src="https://github.com/pianist22/Images/blob/main/Scikit-learn.png" alt="Scikit-learn" width = '80'/>
 </p>
 
 ---
