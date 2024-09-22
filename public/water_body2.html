@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f49e0781616d6d42f22ae43b8e7f70bb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f49e0781616d6d42f22ae43b8e7f70bb" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f49e0781616d6d42f22ae43b8e7f70bb = L.map(
+                "map_f49e0781616d6d42f22ae43b8e7f70bb",
+                {
+                    center: [28.6139, 77.209],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e1a4b41aa911249dd85b08aa4acd40f5 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_e1a4b41aa911249dd85b08aa4acd40f5.addTo(map_f49e0781616d6d42f22ae43b8e7f70bb);
+        
+    
+            var marker_237fcf1b5c57a052ed8bb7141ccbe50c = L.marker(
+                [28.6448, 77.2382],
+                {}
+            ).addTo(map_f49e0781616d6d42f22ae43b8e7f70bb);
+        
+    
+            var icon_5b8acf63c7637f62454117232b6958c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_237fcf1b5c57a052ed8bb7141ccbe50c.setIcon(icon_5b8acf63c7637f62454117232b6958c5);
+        
+    
+        var popup_295c9ed24d57a87af0b05d3d51652c06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc93f181686d7f1e62d7d24afefc2f29 = $(`<div id="html_fc93f181686d7f1e62d7d24afefc2f29" style="width: 100.0%; height: 100.0%;">Yamuna River: The water is very unsafe</div>`)[0];
+                popup_295c9ed24d57a87af0b05d3d51652c06.setContent(html_fc93f181686d7f1e62d7d24afefc2f29);
+            
+        
+
+        marker_237fcf1b5c57a052ed8bb7141ccbe50c.bindPopup(popup_295c9ed24d57a87af0b05d3d51652c06)
+        ;
+
+        
+    
+    
+            var marker_ffe6b36cd26bba921b30ee42998e606f = L.marker(
+                [28.6206, 77.2877],
+                {}
+            ).addTo(map_f49e0781616d6d42f22ae43b8e7f70bb);
+        
+    
+            var icon_f8f63fef0697391206dcb80f462d7bf3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ffe6b36cd26bba921b30ee42998e606f.setIcon(icon_f8f63fef0697391206dcb80f462d7bf3);
+        
+    
+        var popup_81f8e7b4f8766c1b1c04b7f67dd71de2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80aea11d412d7fac25291c89a6588122 = $(`<div id="html_80aea11d412d7fac25291c89a6588122" style="width: 100.0%; height: 100.0%;">Sanjay Lake: The water is unsafe</div>`)[0];
+                popup_81f8e7b4f8766c1b1c04b7f67dd71de2.setContent(html_80aea11d412d7fac25291c89a6588122);
+            
+        
+
+        marker_ffe6b36cd26bba921b30ee42998e606f.bindPopup(popup_81f8e7b4f8766c1b1c04b7f67dd71de2)
+        ;
+
+        
+    
+    
+            var marker_57ca972430b9f10642973e5b1665c0be = L.marker(
+                [28.7405, 77.1587],
+                {}
+            ).addTo(map_f49e0781616d6d42f22ae43b8e7f70bb);
+        
+    
+            var icon_81687d867e524f6bf7759e2d215e8f46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_57ca972430b9f10642973e5b1665c0be.setIcon(icon_81687d867e524f6bf7759e2d215e8f46);
+        
+    
+        var popup_96ef3016a30c5260ee1ba5eab8d86461 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67ae3ecb13a047a61d9b6f6ad105de14 = $(`<div id="html_67ae3ecb13a047a61d9b6f6ad105de14" style="width: 100.0%; height: 100.0%;">Bhalswa Lake: The water is polluted</div>`)[0];
+                popup_96ef3016a30c5260ee1ba5eab8d86461.setContent(html_67ae3ecb13a047a61d9b6f6ad105de14);
+            
+        
+
+        marker_57ca972430b9f10642973e5b1665c0be.bindPopup(popup_96ef3016a30c5260ee1ba5eab8d86461)
+        ;
+
+        
+    
+    
+            var marker_45a1342376cf4ddf1137a9d4b3d6a417 = L.marker(
+                [28.6979, 77.1551],
+                {}
+            ).addTo(map_f49e0781616d6d42f22ae43b8e7f70bb);
+        
+    
+            var icon_ae17a8897c56433b0d30dbac5cbb848b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_45a1342376cf4ddf1137a9d4b3d6a417.setIcon(icon_ae17a8897c56433b0d30dbac5cbb848b);
+        
+    
+        var popup_520a56e481b0deddfe8c1ab6d19a0f16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96f906a4c97c7272e8aa1688ad9cfe8a = $(`<div id="html_96f906a4c97c7272e8aa1688ad9cfe8a" style="width: 100.0%; height: 100.0%;">Naini Lake: The water quality is moderate</div>`)[0];
+                popup_520a56e481b0deddfe8c1ab6d19a0f16.setContent(html_96f906a4c97c7272e8aa1688ad9cfe8a);
+            
+        
+
+        marker_45a1342376cf4ddf1137a9d4b3d6a417.bindPopup(popup_520a56e481b0deddfe8c1ab6d19a0f16)
+        ;
+
+        
+    
+    
+            var marker_84575c44dc09c8e3aa4c7f3880ebdd6f = L.marker(
+                [28.5954, 76.9643],
+                {}
+            ).addTo(map_f49e0781616d6d42f22ae43b8e7f70bb);
+        
+    
+            var icon_ed8d5d140cb086a966b00c4fd2777253 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_84575c44dc09c8e3aa4c7f3880ebdd6f.setIcon(icon_ed8d5d140cb086a966b00c4fd2777253);
+        
+    
+        var popup_269aeaf2c517ba2fed3cc59191005b64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3a0ca2b5df838647006cdfe2d91a320 = $(`<div id="html_e3a0ca2b5df838647006cdfe2d91a320" style="width: 100.0%; height: 100.0%;">Najafgarh Drain: The water is very unsafe</div>`)[0];
+                popup_269aeaf2c517ba2fed3cc59191005b64.setContent(html_e3a0ca2b5df838647006cdfe2d91a320);
+            
+        
+
+        marker_84575c44dc09c8e3aa4c7f3880ebdd6f.bindPopup(popup_269aeaf2c517ba2fed3cc59191005b64)
+        ;
+
+        
+    
+    
+            var marker_34202e530eb15ff5a65eb1da0670d3fe = L.marker(
+                [28.5516, 77.1926],
+                {}
+            ).addTo(map_f49e0781616d6d42f22ae43b8e7f70bb);
+        
+    
+            var icon_5525727965e25d15d2f4aca138708635 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_34202e530eb15ff5a65eb1da0670d3fe.setIcon(icon_5525727965e25d15d2f4aca138708635);
+        
+    
+        var popup_f003143aa4849ff38d05bf97412168e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89d67f7fca2c9cb672ed204fc1a8b832 = $(`<div id="html_89d67f7fca2c9cb672ed204fc1a8b832" style="width: 100.0%; height: 100.0%;">Hauz Khas Lake: The water is unsafe</div>`)[0];
+                popup_f003143aa4849ff38d05bf97412168e0.setContent(html_89d67f7fca2c9cb672ed204fc1a8b832);
+            
+        
+
+        marker_34202e530eb15ff5a65eb1da0670d3fe.bindPopup(popup_f003143aa4849ff38d05bf97412168e0)
+        ;
+
+        
+    
+    
+            var marker_a44daee9acaa33aecae48f87be981cb9 = L.marker(
+                [28.5444, 77.3054],
+                {}
+            ).addTo(map_f49e0781616d6d42f22ae43b8e7f70bb);
+        
+    
+            var icon_1ba2dd2c6bd4632633da7211e6529d18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a44daee9acaa33aecae48f87be981cb9.setIcon(icon_1ba2dd2c6bd4632633da7211e6529d18);
+        
+    
+        var popup_6255f590c2fa3da4a5b5eb5eb6a6cb52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89fbe4ef6d8b06d24f3e15dcb7f10314 = $(`<div id="html_89fbe4ef6d8b06d24f3e15dcb7f10314" style="width: 100.0%; height: 100.0%;">Okhla Bird Sanctuary Wetland: The water is unsafe</div>`)[0];
+                popup_6255f590c2fa3da4a5b5eb5eb6a6cb52.setContent(html_89fbe4ef6d8b06d24f3e15dcb7f10314);
+            
+        
+
+        marker_a44daee9acaa33aecae48f87be981cb9.bindPopup(popup_6255f590c2fa3da4a5b5eb5eb6a6cb52)
+        ;
+
+        
+    
+    
+            var marker_07526465d1451be78625710d24bb1194 = L.marker(
+                [28.5056, 77.2599],
+                {}
+            ).addTo(map_f49e0781616d6d42f22ae43b8e7f70bb);
+        
+    
+            var icon_41d243b62f335cdfb965f6b8402a34d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_07526465d1451be78625710d24bb1194.setIcon(icon_41d243b62f335cdfb965f6b8402a34d3);
+        
+    
+        var popup_0d4b78d6bf0d1a1e1eeeb3b12ddcdaa6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_387765408ea1e93a3962b57afe46e0d0 = $(`<div id="html_387765408ea1e93a3962b57afe46e0d0" style="width: 100.0%; height: 100.0%;">Tughlaqabad Lake: The water quality is moderate</div>`)[0];
+                popup_0d4b78d6bf0d1a1e1eeeb3b12ddcdaa6.setContent(html_387765408ea1e93a3962b57afe46e0d0);
+            
+        
+
+        marker_07526465d1451be78625710d24bb1194.bindPopup(popup_0d4b78d6bf0d1a1e1eeeb3b12ddcdaa6)
+        ;
+
+        
+    
+    
+            var marker_4cf22feb37f80a62f6608133549976b7 = L.marker(
+                [28.6129, 77.241],
+                {}
+            ).addTo(map_f49e0781616d6d42f22ae43b8e7f70bb);
+        
+    
+            var icon_b166ffc484dfadefe4dea498ce6c1a21 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_4cf22feb37f80a62f6608133549976b7.setIcon(icon_b166ffc484dfadefe4dea498ce6c1a21);
+        
+    
+        var popup_36b36c1d491a6bfe2b6143bff99e0853 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b322222cd4d6394be3a58421011254c9 = $(`<div id="html_b322222cd4d6394be3a58421011254c9" style="width: 100.0%; height: 100.0%;">Purana Qila Lake: The water quality is moderate</div>`)[0];
+                popup_36b36c1d491a6bfe2b6143bff99e0853.setContent(html_b322222cd4d6394be3a58421011254c9);
+            
+        
+
+        marker_4cf22feb37f80a62f6608133549976b7.bindPopup(popup_36b36c1d491a6bfe2b6143bff99e0853)
+        ;
+
+        
+    
+    
+            var marker_92c99e4aa397838fdddd36885d472798 = L.marker(
+                [28.5457, 77.1636],
+                {}
+            ).addTo(map_f49e0781616d6d42f22ae43b8e7f70bb);
+        
+    
+            var icon_11f6979eb8767a1322591d74188dd5ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_92c99e4aa397838fdddd36885d472798.setIcon(icon_11f6979eb8767a1322591d74188dd5ba);
+        
+    
+        var popup_9a4f8af9975d28076f840217156f5010 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c98237492b4ea2c52eecb71480f39437 = $(`<div id="html_c98237492b4ea2c52eecb71480f39437" style="width: 100.0%; height: 100.0%;">Neela Hauz Lake: The water is unsafe</div>`)[0];
+                popup_9a4f8af9975d28076f840217156f5010.setContent(html_c98237492b4ea2c52eecb71480f39437);
+            
+        
+
+        marker_92c99e4aa397838fdddd36885d472798.bindPopup(popup_9a4f8af9975d28076f840217156f5010)
+        ;
+
+        
+    
+    
+            var marker_8ec2913ae8a043b15264eefc04d3855b = L.marker(
+                [28.5215, 77.2301],
+                {}
+            ).addTo(map_f49e0781616d6d42f22ae43b8e7f70bb);
+        
+    
+            var icon_46798e6b5e1c005c20c7e7529a905c59 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_8ec2913ae8a043b15264eefc04d3855b.setIcon(icon_46798e6b5e1c005c20c7e7529a905c59);
+        
+    
+        var popup_f4f7ec08838517e2ca6a190cc69d2a27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_576e29e04a999bd703455fe48fcd428e = $(`<div id="html_576e29e04a999bd703455fe48fcd428e" style="width: 100.0%; height: 100.0%;">Satpula Lake: The water is polluted</div>`)[0];
+                popup_f4f7ec08838517e2ca6a190cc69d2a27.setContent(html_576e29e04a999bd703455fe48fcd428e);
+            
+        
+
+        marker_8ec2913ae8a043b15264eefc04d3855b.bindPopup(popup_f4f7ec08838517e2ca6a190cc69d2a27)
+        ;
+
+        
+    
+    
+            var marker_77a9370c9cc96407b8cf61be17efeb41 = L.marker(
+                [28.6743, 77.2083],
+                {}
+            ).addTo(map_f49e0781616d6d42f22ae43b8e7f70bb);
+        
+    
+            var icon_6ceeb0ac9a23651964ce571031bbbe75 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_77a9370c9cc96407b8cf61be17efeb41.setIcon(icon_6ceeb0ac9a23651964ce571031bbbe75);
+        
+    
+        var popup_11dffae5ea34eb714193d644fee34283 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e89df664902f6fc213c13d5a3c9fca3e = $(`<div id="html_e89df664902f6fc213c13d5a3c9fca3e" style="width: 100.0%; height: 100.0%;">Roshanara Bagh Lake: The water quality is moderate</div>`)[0];
+                popup_11dffae5ea34eb714193d644fee34283.setContent(html_e89df664902f6fc213c13d5a3c9fca3e);
+            
+        
+
+        marker_77a9370c9cc96407b8cf61be17efeb41.bindPopup(popup_11dffae5ea34eb714193d644fee34283)
+        ;
+
+        
+    
+    
+            var marker_1e614fea365de1946702cd7be6b8853d = L.marker(
+                [28.4745, 77.2159],
+                {}
+            ).addTo(map_f49e0781616d6d42f22ae43b8e7f70bb);
+        
+    
+            var icon_30aa5a8f1ead1061a94057a9e6307ebc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1e614fea365de1946702cd7be6b8853d.setIcon(icon_30aa5a8f1ead1061a94057a9e6307ebc);
+        
+    
+        var popup_e27d7ffcbd59a267c5f3898a19732a28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ea27fbf78045389db3c7962fed0462f = $(`<div id="html_2ea27fbf78045389db3c7962fed0462f" style="width: 100.0%; height: 100.0%;">Asola Bhatti Wildlife Sanctuary Wetlands: The water is unsafe</div>`)[0];
+                popup_e27d7ffcbd59a267c5f3898a19732a28.setContent(html_2ea27fbf78045389db3c7962fed0462f);
+            
+        
+
+        marker_1e614fea365de1946702cd7be6b8853d.bindPopup(popup_e27d7ffcbd59a267c5f3898a19732a28)
+        ;
+
+        
+    
+    
+            var marker_5d80b655ac58f25699e38181f7921182 = L.marker(
+                [28.4625, 77.1601],
+                {}
+            ).addTo(map_f49e0781616d6d42f22ae43b8e7f70bb);
+        
+    
+            var icon_f1bb39792123b4f86d151bca1bb2e030 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_5d80b655ac58f25699e38181f7921182.setIcon(icon_f1bb39792123b4f86d151bca1bb2e030);
+        
+    
+        var popup_62569c701b6b1116f767f318b5cd321a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_487375206b004afa66e71e2fde6bcc1c = $(`<div id="html_487375206b004afa66e71e2fde6bcc1c" style="width: 100.0%; height: 100.0%;">Sultanpur National Park Wetlands: The water quality is moderate</div>`)[0];
+                popup_62569c701b6b1116f767f318b5cd321a.setContent(html_487375206b004afa66e71e2fde6bcc1c);
+            
+        
+
+        marker_5d80b655ac58f25699e38181f7921182.bindPopup(popup_62569c701b6b1116f767f318b5cd321a)
+        ;
+
+        
+    
+    
+            var marker_6190d68d78024fdc3d4aaa7401f572bf = L.marker(
+                [28.8985, 76.7736],
+                {}
+            ).addTo(map_f49e0781616d6d42f22ae43b8e7f70bb);
+        
+    
+            var icon_1473b9b459a1f566792417f5a696f8ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_6190d68d78024fdc3d4aaa7401f572bf.setIcon(icon_1473b9b459a1f566792417f5a696f8ab);
+        
+    
+        var popup_67c62b439b816a51cdd27c3372265937 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_904dacb043992cc62d50651a66e55fec = $(`<div id="html_904dacb043992cc62d50651a66e55fec" style="width: 100.0%; height: 100.0%;">Dighal Wetland: The water quality is moderate</div>`)[0];
+                popup_67c62b439b816a51cdd27c3372265937.setContent(html_904dacb043992cc62d50651a66e55fec);
+            
+        
+
+        marker_6190d68d78024fdc3d4aaa7401f572bf.bindPopup(popup_67c62b439b816a51cdd27c3372265937)
+        ;
+
+        
+    
+</script>
+</html>
